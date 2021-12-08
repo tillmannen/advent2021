@@ -1,4 +1,4 @@
-public static class Day8{
+public static class Day16{
     public static void Run(){
         A();
         B();
@@ -6,11 +6,11 @@ public static class Day8{
 
     private static void A(){
         
-        Console.WriteLine("8a: "+null);
+        Console.WriteLine("16a: "+null);
     }
 
     private static void B(){
         
-        Console.WriteLine("8b: "+null);
+        Console.WriteLine("16b: "+null);
     }
 }

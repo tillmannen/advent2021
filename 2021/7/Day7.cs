@@ -57,9 +57,6 @@ public static class Day7{
         return fuel;
     }
 
-//1,3,6,10,15,21,28,36
-//96798233
-
     private static bool IsEven(this int input){
         return input % 2 == 0;
     }
