@@ -36,34 +36,38 @@ public static class Day6{
         Console.WriteLine("6a: "+result);
     }
 
-    private static ulong BCountFishesAfterDays(List<int> input, int Days){
-        ulong[] fishAgeCount = new ulong[9];
+    private static long BCountFishesAfterDays(List<int> input, int Days){
+        long[] fishAgeCount = new long[9];
         foreach(var fishAge in input) {
             fishAgeCount[fishAge]++;
         }
 
         for(var i = 0; i < Days; i++){
-            fishAgeCount = MoveNumbers(fishAgeCount);
+            fishAgeCount = AgeFishes(fishAgeCount);
         }
 
         return CountFishes(fishAgeCount);
     }
-    private static ulong CountFishes(ulong[] fishAges){
-        ulong fishcount = 0;
+
+    static long[] AgeFishes(long[] fishAges) {
+        long[] newFishAges = new long[9];
+        newFishAges[6] = fishAges[0];
+        newFishAges[8] = fishAges[0];
+        for(int i = 0; i < 8; i++) {
+            newFishAges[i] += fishAges[i+1];
+        }
+        return newFishAges;
+    }
+
+    private static long CountFishes(long[] fishAges){
+        long fishcount = 0;
         foreach(var age in fishAges){
             fishcount += age;
         }
         return fishcount;
+        //1601616884019
     }
-    static ulong[] MoveNumbers(ulong[] numbers) {
-        ulong[] newNumbers = new ulong[9];
-        newNumbers[6] = numbers[0];
-        newNumbers[8] = numbers[0];
-        for(int i = 0; i < 8; i++) {
-            newNumbers[i] += numbers[i+1];
-        }
-        return newNumbers;
-    }
+
     private static void B(){
         var input = GetInput();
         var result = BCountFishesAfterDays(input, 256);
