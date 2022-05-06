@@ -8,28 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/fredrikt/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\fretil01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj",
+      "projectUniqueName": "C:\\Users\\fretil01\\Privat\\advent2021\\AdventOfCode.csproj",
       "projectName": "AdventOfCode",
-      "projectPath": "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj",
-      "packagesPath": "/Users/fredrikt/.nuget/packages/",
-      "outputPath": "/Users/fredrikt/kod/advent2021/obj/",
+      "projectPath": "C:\\Users\\fretil01\\Privat\\advent2021\\AdventOfCode.csproj",
+      "packagesPath": "C:\\Users\\fretil01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fretil01\\Privat\\advent2021\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/fredrikt/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fretil01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -62,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
