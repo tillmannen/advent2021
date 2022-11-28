@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qaifi3GVFIXE++jKI4U86r3jhkHuThnfLt3BRfOmY+6YPwit858QnacpfozZwHP3GLLhKx6w4MTDLpCKsXPl+Q==",
+  "dgSpecHash": "xnsHGJtmu/c3NKW2lxSYDLBicFppr+5SB28ZbfhNqupaJxfe2gebUh4yMfcIdT/fDseJDwxU/FYg3uk8puxwsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fretil01\\Privat\\advent2021\\AdventOfCode.csproj",
+  "projectFilePath": "/Users/fredrik/Kod/advent2021/AdventOfCode.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
