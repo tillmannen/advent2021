@@ -1,29 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj": {}
+    "C:\\medialokal\\privat\\advent2021\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj": {
+    "C:\\medialokal\\privat\\advent2021\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj",
+        "projectUniqueName": "C:\\medialokal\\privat\\advent2021\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "/Users/fredrikt/kod/advent2021/AdventOfCode.csproj",
-        "packagesPath": "/Users/fredrikt/.nuget/packages/",
-        "outputPath": "/Users/fredrikt/kod/advent2021/obj/",
+        "projectPath": "C:\\medialokal\\privat\\advent2021\\AdventOfCode.csproj",
+        "packagesPath": "C:\\Users\\fretil01\\.nuget\\packages\\",
+        "outputPath": "C:\\medialokal\\privat\\advent2021\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/fredrikt/.nuget/NuGet/NuGet.Config"
+          "C:\\medialokal\\NuGet.Config",
+          "C:\\Users\\fretil01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/sr-dm/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -55,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
